@@ -1,0 +1,21 @@
+skills/cave-cli/SKILL.md
+  s_1e9e4308799d35::t_d6b276e83ea787 1-198
+README.md
+  s_1e9e4308799d35::t_d6b276e83ea787 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "75299b88edb03f98a6efbedbc5fd0fd4ce6a2cef",
+  "prompts": {},
+  "sessions": {
+    "s_1e9e4308799d35": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0eeed485bffe5OU82tqw99EYpi",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Kevin <kevin@sucasa.com.au>"
+    }
+  }
+}
