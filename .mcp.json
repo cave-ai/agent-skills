@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cave": {
+      "type": "http",
+      "url": "https://getcave.ai/mcp"
+    }
+  }
+}

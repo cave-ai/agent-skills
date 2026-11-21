@@ -2,7 +2,7 @@
   "name": "cave-ai",
   "displayName": "Cave AI",
   "version": "1.0.0",
-  "description": "Track agent work in Cave: every piece of work becomes a Cave task, progress goes into task comments, and milestones are posted to Cave chat. Also covers the Cave CLI.",
+  "description": "Track agent work in Cave: connects the Cave MCP server, makes every piece of work a Cave task, posts progress as task comments, and shares milestones in Cave chat. Also covers the Cave CLI.",
   "author": {
     "name": "Cave",
     "url": "https://getcave.ai"
