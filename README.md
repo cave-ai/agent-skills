@@ -19,3 +19,19 @@ Use the skill without installing it:
 ```sh
 npx skills use cave-ai/agent-skills --skill cave-cli
 ```
+
+### cave-mcp
+
+Track agent work in Cave through the Cave MCP server: every piece of work becomes a Cave task, progress goes into task comments, and milestones are posted to Cave chat.
+
+Install the skill:
+
+```sh
+npx skills add cave-ai/agent-skills --skill cave-mcp
+```
+
+Use the skill without installing it:
+
+```sh
+npx skills use cave-ai/agent-skills --skill cave-mcp
+```
