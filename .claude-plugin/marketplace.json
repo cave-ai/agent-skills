@@ -10,9 +10,7 @@
     {
       "name": "cave",
       "description": "Cave skills: track agent work as Cave tasks through the Cave MCP server, and operate Cave from the CLI.",
-      "source": "./",
-      "strict": false,
-      "skills": ["./skills/cave-mcp", "./skills/cave-cli"]
+      "source": "./"
     }
   ]
 }
