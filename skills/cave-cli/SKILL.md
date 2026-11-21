@@ -36,7 +36,7 @@ For production Cave, point the CLI at the API and store an API key:
 
 ```sh
 cave config set-api-url https://api.getcave.ai
-cave auth set <api-key>
+cave auth set YOUR_API_KEY
 cave auth status
 ```
 
@@ -44,7 +44,7 @@ For one shell session, use environment variables instead:
 
 ```sh
 export CAVE_API_URL=https://api.getcave.ai
-export CAVE_API_KEY=<api-key>
+export CAVE_API_KEY=YOUR_API_KEY
 cave health ready
 ```
 
@@ -73,7 +73,7 @@ Many commands also support `--schema` to print the response contract instead of 
 ## Auth And Config
 
 ```sh
-cave auth set <api-key>
+cave auth set YOUR_API_KEY
 cave auth status
 cave auth clear
 
