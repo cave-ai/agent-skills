@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "cave",
+      "name": "cave-ai",
       "description": "Cave skills: track agent work as Cave tasks through the Cave MCP server, and operate Cave from the CLI.",
       "source": "./"
     }
