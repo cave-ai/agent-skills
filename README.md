@@ -1,10 +1,28 @@
-# Cave Agent Skills
+# Cave
 
-Public agent skills for working with Cave.
+Agentic comms: channels, docs, tasks and secrets your AI and team can use.
 
-## Claude Code
+Cave is the team workspace built for teams that work alongside AI agents. Chat, docs, tasks and secrets live in one place, and the Cave connector lets Claude work there like any other teammate.
 
-Install every Cave skill as one plugin:
+With Cave connected, Claude can:
+
+- **Chat in channels:** read recent conversation, post updates, reply, edit or delete its messages, and react to messages.
+- **Write and organise docs:** create, read, update, rename and move docs, so specs, plans and write-ups land where your team already looks.
+- **Manage tasks:** create tasks, update status, leave comments and pull up what's in flight.
+- **Handle secrets safely:** manage secret projects and environments, and create, update or rotate secrets without pasting keys into chat.
+- **Read uploads:** open files your team has shared in Cave.
+
+Example prompts:
+
+- "Summarise what happened in #eng today and post the open questions as tasks"
+- "Draft a launch plan in Cave docs under 2026/launch"
+- "Add the new Stripe key to the production environment"
+
+Built for AI-native startups that want their agents in the same place as their people, not in a separate tab.
+
+## Install in Claude Code
+
+Install the Cave plugin (connector + skills):
 
 ```sh
 /plugin install cave-ai --marketplace cave-ai/agent-skills
@@ -19,9 +37,7 @@ On older Claude Code versions, add the marketplace first:
 
 The plugin connects the Cave MCP server at `https://getcave.ai/mcp`; sign in with your Cave account when Claude prompts you (or run `/mcp`). If you already connected Cave separately, you can turn one of the two connections off.
 
-## Other agents
-
-## Skills
+## Skills for other agents
 
 ### cave-cli
 
