@@ -17,7 +17,7 @@ On older Claude Code versions, add the marketplace first:
 /plugin install cave-ai@cave-ai
 ```
 
-The `cave-mcp` skill expects the Cave MCP server. Connect it at `https://getcave.ai/mcp` (OAuth sign-in), for example with `claude mcp add --transport http cave https://getcave.ai/mcp`.
+The plugin connects the Cave MCP server at `https://getcave.ai/mcp`; sign in with your Cave account when Claude prompts you (or run `/mcp`). If you already connected Cave separately, you can turn one of the two connections off.
 
 ## Other agents
 
